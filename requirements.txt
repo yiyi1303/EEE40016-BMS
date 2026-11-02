@@ -1,0 +1,5 @@
+# The BMS, the adapter and the tests need only the Python standard library (Python 3.9+).
+# Optional extras:
+matplotlib            # plots in `python bms_industrial.py`
+paho-mqtt>=2.1,<3     # bms_node_ui.py broker mode, gia_battery.py stand-alone MQTT node
+numpy                 # export_a123_params.py only (re-exporting the cell parameters)
